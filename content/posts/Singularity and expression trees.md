@@ -1,7 +1,7 @@
 ---
 title: Singularity and expression trees
 date: 2018-11-20T20:48:51+02:00
-tags: [C#]
+tags: [Csharp]
 published: true
 ---
 

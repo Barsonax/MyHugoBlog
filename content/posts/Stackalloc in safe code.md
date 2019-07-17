@@ -1,7 +1,7 @@
 ---
 title: Stackalloc in safe code
 date: 2019-01-04T20:48:51+02:00
-tags: [C#, Performance]
+tags: [Csharp, Performance]
 published: true
 ---
 

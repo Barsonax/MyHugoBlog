@@ -1,7 +1,7 @@
 ---
 title: C# 8.0 Nullable References
 date: 2019-02-18T20:48:51+02:00
-tags: [C#, C#8.0, NullReference]
+tags: [Csharp, Csharp8.0, NullReference]
 published: true
 ---
 
