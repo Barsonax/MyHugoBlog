@@ -1,0 +1,4 @@
+baseURL = "https://www.the-photographing-programmer.com/"
+languageCode = "en-us"
+title = "The Photogrammer"
+theme = "m10c"
