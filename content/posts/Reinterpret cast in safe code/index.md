@@ -1,9 +1,9 @@
 ---
 title: Reinterpret cast in safe code
-date: 2019-01-04T20:48:51+02:00
+date: 2019-08-10T20:48:51+02:00
 tags: [Csharp, Performance]
 categories: [Programming]
-draft: true
+draft: false
 resources:
 - name: featuredImage
   src: "thumbnail.jpg"
@@ -12,3 +12,42 @@ resources:
 ---
 
 ## Reinterpret cast with Span
+Did you know you can do a reinterpret cast in C# where we treat a array of structs as a array of bytes?
+```cs
+static unsafe void Main(string[] args)
+{
+    var colorArray = new RGBA[]
+    {
+        new RGBA(1,2,3,4),
+        new RGBA(9,8,7,6)
+    };
+    fixed (RGBA* ptr = colorArray)
+    {
+        byte* bytes = (byte*)ptr;
+        var byteSize = colorArray.Length * 4;
+        for (int i = 0; i < byteSize; i++)
+        {
+            Console.WriteLine(bytes[i]);
+        }
+    }
+    Console.ReadKey();
+}
+```
+Did you know the above code is now possible in safe code with the help of Span<T> and C# 7.2?
+```cs
+static void Main(string[] args)
+{
+    var colorArray = new RGBA[]
+    {
+        new RGBA(1,2,3,4),
+        new RGBA(9,8,7,6)
+    };
+    Span<byte> bytes = MemoryMarshal.AsBytes(colorArray.AsSpan());
+    for (int i = 0; i < bytes.Length; i++)
+    {
+        Console.WriteLine(bytes[i]);
+    }
+    Console.ReadKey();
+}
+```
+Enjoy but do use with care :)
