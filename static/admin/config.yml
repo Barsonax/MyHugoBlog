@@ -9,7 +9,7 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 collections:
   - name: "posts"
     label: "Post"
-    folder: "_posts"
+    folder: "content/posts"
     fields:
       - {label: "Title", name: "title", widget: string}
       - {label: "Date", name: "date", widget: "datetime"}
