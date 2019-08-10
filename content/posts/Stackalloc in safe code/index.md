@@ -99,7 +99,7 @@ public int UnsafeStackAllocatedArray()
 }
 ```
 And the results of these benchmarks:
-{{<image src="Benchmark.png" alt="Usb otg cardreader" >}}
+{{<image src="Benchmark.png" alt="Benchmarks" >}}
 
 As you can see the difference is getting quite small if you go past a couple of hundred bytes in size. For small array sizes though the difference is quite big.
 
