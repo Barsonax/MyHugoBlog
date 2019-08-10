@@ -20,8 +20,6 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Categories", name: "categories", widget: "list"}
-
-      - {label: "Body", name: "body", widget: "markdown", required: false}
       - label: "Resources"
         name: "resources"
         widget: "object"
@@ -29,3 +27,4 @@ collections:
         fields:
           - {label: "Name", name: "name", widget: string, default: "featuredImage"}
           - {label: "Featured Image", name: "src", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
