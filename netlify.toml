@@ -2,19 +2,15 @@
 publish = "public"
 command = "hugo -b $URL"
 
- [context.production.environment]
-HUGO_VERSION = "0.55.6"
+[build.environment]
+  HUGO_VERSION = "0.55.6"
+
+[context.production.environment]
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
- [context.deploy-preview]
+[context.deploy-preview]
 command = "hugo -b $DEPLOY_PRIME_URL"
 
- [context.deploy-preview.environment]
-HUGO_VERSION = "0.55.6"
-
- [context.branch-deploy]
+[context.branch-deploy]
 command = "hugo -b $DEPLOY_PRIME_URL"
-
- [context.branch-deploy.environment]
-HUGO_VERSION = "0.55.6"
