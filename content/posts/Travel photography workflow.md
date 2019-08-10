@@ -2,6 +2,7 @@
 title: Travel photography workflow
 date: 2019-02-15T20:48:51+02:00
 tags: [Travel]
+categories: [Photography]
 published: true
 ---
 

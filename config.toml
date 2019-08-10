@@ -1,3 +1,10 @@
 languageCode = "en-us"
 title = "The Photogrammer"
 theme = "aether"
+
+[params]
+brand = "The Photogrammer"
+description = "A blog about coding and photography"
+homeimg = "images/avatar.svg"
+bgimg = "images/ignasipattern.png"
+rssinmenu = true
