@@ -4,6 +4,11 @@ date: 2019-02-18T20:48:51+02:00
 tags: [Csharp, Csharp8.0, NullReference]
 categories: [Programming]
 draft: false
+resources:
+- name: featuredImage
+  src: "thumbnail.jpg"
+  params:
+    description: "A null reference exception in C#"
 ---
 
 ## The What and Why of 'nullable references'
