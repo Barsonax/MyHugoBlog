@@ -1,9 +1,14 @@
 ---
-title: Stackalloc in safe code
+title: Stackalloc in safe Csharp code
 date: 2019-01-04T20:48:51+02:00
 tags: [Csharp, Performance]
 categories: [Programming]
-published: true
+draft: false
+resources:
+- name: featuredImage
+  src: "thumbnail.jpg"
+  params:
+    description: "Reinterpret cast in C# code"
 ---
 
 ## What is the stackalloc keyword in C#?

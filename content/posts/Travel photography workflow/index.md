@@ -3,12 +3,12 @@ title: Travel photography workflow
 date: 2019-02-15T20:48:51+02:00
 tags: [Travel]
 categories: [Photography]
-draft: true
+draft: false
 resources:
 - name: featuredImage
   src: "thumbnail.jpg"
   params:
-    description: "A MacBook showing a website using the aether theme"
+    description: "Lantern shop in Hoi An, Vietnam"
 ---
 
 ## The problem
@@ -21,15 +21,15 @@ To solve this problem we first have to figure out a way to get the files on your
 
 ![alt text](/images/Travel photography workflow/usbotgcardreader.jpg "Usb otg cardreader")
 
-I bought the above cardreader with usb c adapter in Vietnam but its probably easier if you buy it before you go on a trip. Make sure the card reader supports OTG so that it will work with mobile phones.
+I bought the above cardreader with usb c adapter in Vietnam but its probably easier if you buy it before you go on a trip. Make sure the card reader supports OTG so that it will work with mobile phones. Recently I have also noticed that usb 3.0 devices such as the [Transcend RDF5 USB 3.0 Card reader](https://www.transcend-info.com/Products/No-396) will work as well.
 
-Some camera's support transferring photo's to your phone using WIFI. However with my a6000 camera it only transfered a small preview JPEG and not the full RAW file so I still ended up using a card reader to unlock the full potential of my camera.
+Some camera's support transferring photo's to your phone using WIFI. However with both my a6000 and A7III camera's it only transfered a small preview JPEG and not the full RAW file so I still ended up using a card reader to unlock the full potential of my camera's.
 
 ## Editing the photo's on your phone
-Now the photo's are on your phone lets take them to the next level by editing them. I tried alot of apps but there where 2 apps that worked decently enough to be usable:
-- Snapseed (free)
-- Lightroom mobile (paid)
+Now the photo's are on your phone lets take them to the next level by editing them. I tried alot of apps but there where 2 apps that worked decently enough to be usable:  
+- Snapseed (free)  
+- Lightroom mobile (paid)  
 
 In the end I used Lightroom mobile as it had more options for color grading than Snapseed. You can use Lightroom mobile without buying it but the capabilities will be severely limited.
 
-When trying to edit RAW files in Snapseed you will notice that this does not work. The solution to this is to first convert the RAW files to DNG files. This can be done with a app such as raw2dng. Lightroom mobile does not have this limitation and can directly work with RAW files. JPEG files will work with both apps but will seriously limit in what you can do with them due to the compression and limited color depth.
+When trying to edit RAW files in Snapseed you will notice that this does not work. The solution to this is to first convert the RAW files to DNG files. This can be done with a app such as [raw2dng](https://play.google.com/store/apps/details?id=com.fimagena.raw2dng). Lightroom mobile does not have this limitation and can directly work with RAW files. JPEG files will work with both apps but will seriously limit in what you can do with them due to the compression and limited color depth.

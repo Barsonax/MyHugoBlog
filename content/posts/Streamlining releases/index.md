@@ -3,7 +3,7 @@ title: Streamlining releases
 date: 2018-11-02T20:48:51+02:00
 tags: [devops]
 categories: [Programming]
-published: true
+draft: false
 ---
 
 ## The old release workflow

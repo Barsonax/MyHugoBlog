@@ -3,7 +3,7 @@ title: First blog post and Jekyll
 date: 2018-09-21T20:48:51+02:00
 tags: [jekyll]
 categories: [Programming]
-published: true
+draft: false
 ---
 Woohoo my blog is up and running. At first I thought it would be quite a hassle to setup but in the end it turned out to be extremely simple.
 

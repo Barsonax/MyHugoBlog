@@ -3,7 +3,7 @@ title: Code coverage for your repo
 date: 2018-11-07T20:48:51+02:00
 tags: [devops,unittest]
 categories: [Programming]
-published: true
+draft: false
 ---
 
 ## Which unit tests am I missing?

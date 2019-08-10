@@ -3,9 +3,7 @@ title: C# 8.0 Nullable References
 date: 2019-02-18T20:48:51+02:00
 tags: [Csharp, Csharp8.0, NullReference]
 categories: [Programming]
-dropCap: true
-displayInMenu: false
-displayInList: true
+draft: false
 ---
 
 ## The What and Why of 'nullable references'
