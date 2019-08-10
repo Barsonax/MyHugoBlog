@@ -1,5 +1,5 @@
 ---
-title: Stackalloc in safe Csharp code
+title: C# 7.2 Stackalloc in safe code
 date: 2019-01-04T20:48:51+02:00
 tags: [Csharp, Performance]
 categories: [Programming]
@@ -8,7 +8,7 @@ resources:
 - name: featuredImage
   src: "thumbnail.jpg"
   params:
-    description: "Reinterpret cast in C# code"
+    description: "Stackalloc in safe C# code"
 ---
 
 ## What is the stackalloc keyword in C#?
@@ -99,7 +99,7 @@ public int UnsafeStackAllocatedArray()
 }
 ```
 And the results of these benchmarks:
-![alt text](/images/Stackalloc in safe code/Benchmark.png "Benchmark")
+{{<image src="Benchmark.png" alt="Usb otg cardreader" >}}
 
 As you can see the difference is getting quite small if you go past a couple of hundred bytes in size. For small array sizes though the difference is quite big.
 

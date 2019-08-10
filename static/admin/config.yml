@@ -6,7 +6,7 @@ media_folder: "static/images" # Media files will be stored in the repo under sta
 public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
 publish_mode: editorial_workflow
 
-site_url: https://nervous-dijkstra-8dd264.netlify.com/
+site_url: https://photographing-programmer.netlify.com/
 
 collections:
   - name: "posts"
