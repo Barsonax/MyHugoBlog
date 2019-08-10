@@ -1,5 +1,5 @@
 ---
-title: Reinterpret cast in safe code
+title: C# 7.2 Reinterpret cast in safe code
 date: 2019-08-10T20:48:51+02:00
 tags: [Csharp, Performance]
 categories: [Programming]
