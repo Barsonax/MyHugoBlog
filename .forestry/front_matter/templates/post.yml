@@ -42,5 +42,6 @@ fields:
       name: description
       label: description
 pages:
+- content/posts/Travel photography workflow/index.md
 - content/posts/Reinterpret cast in safe code/index.md
 - content/posts/Csharp 8.0 Nullable References/index.md

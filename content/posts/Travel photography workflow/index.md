@@ -1,16 +1,19 @@
 ---
 title: Travel photography workflow
-date: 2019-02-15T20:48:51+02:00
-tags: [Travel]
-categories: [Photography]
-draft: false
+date: 2019-02-15T18:48:51.000+00:00
+tags:
+- Travel
+categories:
+- Photography
 resources:
 - name: featuredImage
-  src: "thumbnail.jpg"
+  src: thumbnail.jpg
   params:
-    description: "Lantern shop in Hoi An, Vietnam"
----
+    description: Lantern shop in Hoi An, Vietnam
+description: Full RAW workflow with your phone
+dropcap: false
 
+---
 ## The problem
 You are out there backpacking in some remote country. You would like to edit and post the photo's you just took to show off your awesome trip to your friends. However due to some weight and space constraints you left your laptop at home and you only have a mobile phone. You are left wondering how you can get your photo's from your camera's sd card to the people at home.
 
