@@ -11,7 +11,7 @@ resources:
   src: thumbnail.jpg
   params:
     description: Stackalloc in safe C# code
-description: ''
+description: Throw it on the heap or stack it up
 dropcap: false
 
 ---
