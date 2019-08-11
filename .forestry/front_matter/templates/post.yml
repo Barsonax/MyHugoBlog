@@ -4,16 +4,22 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
-- type: list
-  name: tags
-  label: tags
+  label: Date
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
 - type: list
   name: categories
-  label: categories
+  label: Categories
+- name: dropcap
+  type: boolean
+  label: DropCap
+  default: false
 - type: field_group_list
   name: resources
   label: resources
