@@ -20,6 +20,10 @@ fields:
   type: boolean
   label: DropCap
   default: false
+- name: draft
+  type: boolean
+  label: Draft
+  default: true
 - type: field_group_list
   name: resources
   label: resources
