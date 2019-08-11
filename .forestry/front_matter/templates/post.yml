@@ -42,7 +42,6 @@ fields:
       name: description
       label: description
 pages:
-- content/posts/test.md
 - content/posts/Stackalloc in safe code/index.md
 - content/posts/Travel photography workflow/index.md
 - content/posts/Reinterpret cast in safe code/index.md
