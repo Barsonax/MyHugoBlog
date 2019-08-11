@@ -1,16 +1,20 @@
 ---
 title: C# 7.2 Stackalloc in safe code
-date: 2019-01-04T20:48:51+02:00
-tags: [Csharp, Performance]
-categories: [Programming]
-draft: false
+date: 2019-01-04T18:48:51.000+00:00
+tags:
+- Csharp
+- Performance
+categories:
+- Programming
 resources:
 - name: featuredImage
-  src: "thumbnail.jpg"
+  src: thumbnail.jpg
   params:
-    description: "Stackalloc in safe C# code"
----
+    description: Stackalloc in safe C# code
+description: ''
+dropcap: false
 
+---
 ## What is the stackalloc keyword in C#?
 The keyword 'stackalloc' can be used to allocate a block of memory on the stack. The usage looks like the following:
 ```cs
