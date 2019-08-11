@@ -1,16 +1,20 @@
 ---
 title: C# 7.2 Reinterpret cast in safe code
-date: 2019-08-10T20:48:51+02:00
-tags: [Csharp, Performance]
-categories: [Programming]
-draft: false
+date: 2019-08-10T18:48:51.000+00:00
+tags:
+- Csharp
+- Performance
+categories:
+- Programming
 resources:
 - name: featuredImage
-  src: "thumbnail.jpg"
+  src: thumbnail.jpg
   params:
-    description: "Reinterpret cast in C# code"
----
+    description: Reinterpret cast in C# code
+description: A different way of looking at the same thing
+dropcap: false
 
+---
 ## Reinterpret cast with Span
 Did you know you can do a reinterpret cast in C# where we treat a array of structs as a array of bytes?
 ```cs
