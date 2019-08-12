@@ -10,3 +10,9 @@ brand = "The Photogrammer"
 description = "A blog about coding and photography"
 bgimg = "images/ignasipattern.png"
 rssinmenu = true
+
+[social]
+github = "Barsonax"
+instagram = "rickthephotogrammer"
+linkedin = "rick-van-dam-8369b264"
+youtube = "channel/UCGwxMMVuj4NL0kLYR9nAlmA"
