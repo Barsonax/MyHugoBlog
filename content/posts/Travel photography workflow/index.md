@@ -28,10 +28,15 @@ I bought the above cardreader with usb c adapter in Vietnam but its probably eas
 
 Some camera's support transferring photo's to your phone using WIFI. However with both my a6000 and A7III camera's it only transfered a small preview JPEG and not the full RAW file so I still ended up using a card reader to unlock the full potential of my camera's.
 
+## Selecting your photo's
+Now you have a way to copy the photo's to your phone you still need to easily select which photo's to copy. You may find that the default file manager on your phone is not very suited for this as it was never designed for this purpose. 
+
+Instead you should use a app like [Portfolio RAW Photo Manager](https://play.google.com/store/apps/details?id=com.BrainyLantern.slingShotPortfolio&hl=en) which was designed for this specific use case. It works much better than a normal file manager. Even the free version will safe you alot of trouble.
+
 ## Editing the photo's on your phone
 Now the photo's are on your phone lets take them to the next level by editing them. I tried alot of apps but there where 2 apps that worked decently enough to be usable:  
-- Snapseed (free)  
-- Lightroom mobile (paid)  
+- [Snapseed](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&hl=en) (free)  
+- [Adobe Lightroom](https://play.google.com/store/apps/details?id=com.adobe.lrmobile&hl=en) (paid)  
 
 In the end I used Lightroom mobile as it had more options for color grading than Snapseed. You can use Lightroom mobile without buying it but the capabilities will be severely limited.
 
