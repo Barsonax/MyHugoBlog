@@ -21,3 +21,10 @@ command = "hugo -b $DEPLOY_PRIME_URL --gc --minify"
 	  cache-control = '''
     public,
 	  max-age=604800'''
+
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+	  cache-control = '''
+    public,
+	  max-age=604800'''
